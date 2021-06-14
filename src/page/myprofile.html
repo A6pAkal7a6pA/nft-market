@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../scss/index.scss">
+	<title>NFT</title>
+</head>
+
+<body>
+	<!-- <div class="loader">
+			<div class="loader__inner">
+				<div class="lds-circle">
+					<div></div>
+				</div>
+			</div>
+		</div> -->
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__body">
+				<div class="header__logo">
+					<img src="../img/logo.svg" alt="logo">
+				</div>
+				<div class="header__search">
+					<img src="../img/search.svg" alt="search">
+					<input autocomplete="off" type="search" placeholder="Search for ...">
+				</div>
+				<div class="header__connect button">
+					<span class="header__connect-body button-body">
+						+ Add artwork
+					</span>
+				</div>
+				<div class="header__lk lk">
+					<div class="lk__person">
+						<div class="lk__person-image">
+							<img src="../img/avatar.png" alt="avatar">
+						</div>
+						<div class="lk__person-content">
+							<a class="lk__person-title">
+								User Name
+							</a>
+							<div class="lk__person-info">
+								<div class="lk__person-nickname username">
+									@username
+								</div>
+								<div class="lk__person-balance balance">
+									<div class="balance__title">
+										Balance:
+									</div>
+									<img src="../img/kiss.svg" alt="like">
+									<div class="balance__amount">
+										1,5M
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="lk__dropdown">
+							<img src="../img/lk-dropdown-icon.svg" alt="dropdown">
+						</div>
+					</div>
+					<div class="lk__menu lk-menu lk-menu_active">
+						<div class="lk-menu__item">
+							Address: 0c0xcx1cx606g4516x51g1...
+						</div>
+						<div class="lk-menu__item">
+							My profile
+						</div>
+						<div class="lk-menu__item">
+							Balance settings
+						</div>
+						<div class="lk-menu__item">
+							Log out
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main container">
+			<section class="profile">
+
+				<div class="profile__header">
+					<div class="profile__header-person person">
+						<div class="person__image">
+							<img src="../img/avatar.png" alt="avatar">
+						</div>
+						<div class="person__info">
+							<a href="myprofile.html" class="person__info-title">
+								User Name
+							</a>
+							<div class="person__info-nickname username">
+								@username
+							</div>
+						</div>
+					</div>
+
+					<div class="profile__header-action action">
+						<div class="action__follow">
+							<div class="action__follow-item">
+								<h6>
+									234
+								</h6>
+								<p>
+									Followers
+								</p>
+							</div>
+							<div class="action__follow-item">
+								<h6>
+									15
+								</h6>
+								<p>
+									Following
+								</p>
+							</div>
+							<div class="action__follow-item">
+								<div class="button">
+									<span class="button-body">
+										Follow
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="action__option option">
+							<div class="option__item">
+								<img src="../img/external-link.svg" alt="link">
+							</div>
+							<div class="option__item">
+								<img src="../img/share.svg" alt="share">
+							</div>
+							<div class="option__item">
+								<img src="../img/threepoint.svg" alt="menu">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="profile__body">
+					<div class="profile__socio socio">
+						<div class="socio__item">
+							<img src="../img/twitch.svg" alt="twitch">
+							<span>Twitch</span>
+						</div>
+						<div class="socio__item">
+							<img src="../img/instagram.svg" alt="Instagram">
+							<span>Instagram</span>
+						</div>
+						<div class="socio__item">
+							<img src="../img/twitter.svg" alt="Twitter">
+							<span>Twitter</span>
+						</div>
+						<div class="socio__item">
+							<img src="../img/onlyfans.svg" alt="Onlyfans">
+							<span>Onlyfans</span>
+						</div>
+					</div>
+					<div class="profile__text">
+						<span>Description:</span> The iconic meme that became a viral Internet sensation and an indispensable part
+						of the
+						gachimuchi music genre. This was taken when I was very young and in my full "performance" attire. That part
+						of me now "lives" on platforms like Twitch, YouTube, VK (ВКонта́кте), and Bilibili (B 站). The iconic meme
+						that became a viral Internet sensation and an indispensable part of the gachimuchi music genre. This was
+						taken when I was very young and in my full "performance" attire. That part of me now "lives" on platforms
+						like Twitch, YouTube, VK (ВКонта́кте), and Bilibili (B 站).
+					</div>
+				</div>
+			</section>
+
+			<section class="lot">
+				<div class="lot__titles">
+					<!-- ACTIVE OR WHAT? -->
+					<div class="lot__title">
+						Created
+					</div>
+					<div class="lot__title">
+						Collected
+					</div>
+					<div class="lot__title">
+						Bids
+					</div>
+				</div>
+				<div class="lot__body">
+					<div class="lot__body-item lot-item">
+						<div class="lot-item__content">
+							<div class="lot-item__widget">
+								<div class="lot-item__status">
+									<div class="lot-item__status_approved">
+										Approved
+									</div>
+								</div>
+								<div class="lot-item__points">
+									<div class="lot-item__point">
+										<span></span>
+									</div>
+								</div>
+							</div>
+							<div class="lot-item__image">
+								<a href="item.html">
+									<img src="../img/lot-img-1.jpg" alt="lot">
+								</a>
+							</div>
+							<h3 class="lot-item__title">
+								WFH - art name
+							</h3>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Sold for:
+								</div>
+								<div class="lot-item__sold-token">
+									<img src="../img/lot-sold-icon.svg" alt="lot-icon">
+									<span>1,5M</span>
+								</div>
+							</div>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Ending in:
+								</div>
+								<div class="lot-item__sold-token">
+									<span>05h 02m 41s</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lot__body-item lot-item">
+						<div class="lot-item__content">
+							<div class="lot-item__widget">
+								<div class="lot-item__status">
+									<div class="lot-item__status_moderation">
+										On moderation
+									</div>
+								</div>
+								<div class="lot-item__points">
+									<div class="lot-item__point lot-item__point_disabled">
+										<span></span>
+									</div>
+									<div class="lot-item__point">
+										<a href="popup/change.html">
+											<img src="../img/time-icon.svg" alt="points">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="lot-item__image">
+								<a href="item.html">
+									<img src="../img/lot-img-2.jpg" alt="lot">
+								</a>
+							</div>
+							<h3 class="lot-item__title">
+								WFH - art name
+							</h3>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Sold for:
+								</div>
+								<div class="lot-item__sold-token">
+									<img src="../img/lot-sold-icon.svg" alt="lot-icon">
+									<span>1,5M</span>
+								</div>
+							</div>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Ending in:
+								</div>
+								<div class="lot-item__sold-token">
+									<span>05h 02m 41s</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lot__body-item lot-item">
+						<div class="lot-item__content">
+							<div class="lot-item__widget">
+								<div class="lot-item__status">
+									<div class="lot-item__status_declined">
+										Declined
+									</div>
+								</div>
+								<div class="lot-item__points">
+									<div class="lot-item__point">
+										<span></span>
+									</div>
+									<div class="lot-item__point">
+										<img src="../img/time-icon.svg" alt="points">
+									</div>
+									<div class="lot-item__point">
+										<img src="../img/correct-icon.svg" alt="points">
+									</div>
+									<div class="lot-item__point">
+										<img src="../img/trash-icon.svg" alt="points">
+									</div>
+								</div>
+							</div>
+							<div class="lot-item__image">
+								<a href="item.html">
+									<img src="../img/lot-img-3.jpg" alt="lot">
+								</a>
+							</div>
+							<h3 class="lot-item__title">
+								WFH - art name
+							</h3>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Sold for:
+								</div>
+								<div class="lot-item__sold-token">
+									<img src="../img/lot-sold-icon.svg" alt="lot-icon">
+									<span>1,5M</span>
+								</div>
+							</div>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Ending in:
+								</div>
+								<div class="lot-item__sold-token">
+									<span>05h 02m 41s</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lot__body-item lot-item">
+						<div class="lot-item__content">
+							<div class="lot-item__widget">
+								<div class="lot-item__status">
+									<div class="lot-item__status_approved">
+										Approved
+									</div>
+								</div>
+								<div class="lot-item__points">
+									<div class="lot-item__point">
+										<span></span>
+									</div>
+								</div>
+							</div>
+							<div class="lot-item__image">
+								<a href="item.html">
+									<img src="../img/lot-img-4.jpg" alt="lot">
+								</a>
+							</div>
+							<h3 class="lot-item__title">
+								WFH - art name
+							</h3>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Sold for:
+								</div>
+								<div class="lot-item__sold-token">
+									<img src="../img/lot-sold-icon.svg" alt="lot-icon">
+									<span>1,5M</span>
+								</div>
+							</div>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Ending in:
+								</div>
+								<div class="lot-item__sold-token">
+									<span>05h 02m 41s</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lot__body-item lot-item">
+						<div class="lot-item__content">
+							<div class="lot-item__widget">
+								<div class="lot-item__status">
+									<div class="lot-item__status_approved">
+										Approved
+									</div>
+								</div>
+								<div class="lot-item__points">
+									<div class="lot-item__point">
+										<span></span>
+									</div>
+								</div>
+							</div>
+							<div class="lot-item__image">
+								<a href="item.html">
+									<img src="../img/lot-img-5.jpg" alt="lot">
+								</a>
+							</div>
+							<h3 class="lot-item__title">
+								WFH - art name
+							</h3>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Sold for:
+								</div>
+								<div class="lot-item__sold-token">
+									<img src="../img/lot-sold-icon.svg" alt="lot-icon">
+									<span>1,5M</span>
+								</div>
+							</div>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Ending in:
+								</div>
+								<div class="lot-item__sold-token">
+									<span>05h 02m 41s</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lot__body-item lot-item">
+						<div class="lot-item__content">
+							<div class="lot-item__widget">
+								<div class="lot-item__status">
+									<div class="lot-item__status_approved">
+										Approved
+									</div>
+								</div>
+								<div class="lot-item__points">
+									<div class="lot-item__point">
+										<span></span>
+									</div>
+
+								</div>
+							</div>
+							<div class="lot-item__image">
+								<a href="item.html">
+									<img src="../img/lot-img-6.jpg" alt="lot">
+								</a>
+							</div>
+							<h3 class="lot-item__title">
+								WFH - art name
+							</h3>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Sold for:
+								</div>
+								<div class="lot-item__sold-token">
+									<img src="../img/lot-sold-icon.svg" alt="lot-icon">
+									<span>1,5M</span>
+								</div>
+							</div>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Ending in:
+								</div>
+								<div class="lot-item__sold-token">
+									<span>05h 02m 41s</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lot__body-item lot-item">
+						<div class="lot-item__content">
+							<div class="lot-item__widget">
+								<div class="lot-item__status">
+									<div class="lot-item__status_approved">
+										Approved
+									</div>
+								</div>
+								<div class="lot-item__points">
+									<div class="lot-item__point">
+										<span></span>
+									</div>
+
+								</div>
+							</div>
+							<div class="lot-item__image">
+								<a href="item.html">
+									<img src="../img/lot-img-7.jpg" alt="lot">
+								</a>
+							</div>
+							<h3 class="lot-item__title">
+								WFH - art name
+							</h3>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Sold for:
+								</div>
+								<div class="lot-item__sold-token">
+									<img src="../img/lot-sold-icon.svg" alt="lot-icon">
+									<span>1,5M</span>
+								</div>
+							</div>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Ending in:
+								</div>
+								<div class="lot-item__sold-token">
+									<span>05h 02m 41s</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lot__body-item lot-item">
+						<div class="lot-item__content">
+							<div class="lot-item__widget">
+								<div class="lot-item__status">
+									<div class="lot-item__status_approved">
+										Approved
+									</div>
+								</div>
+								<div class="lot-item__points">
+									<div class="lot-item__point">
+										<span></span>
+									</div>
+								</div>
+							</div>
+							<div class="lot-item__image">
+								<a href="item.html">
+									<img src="../img/lot-img-8.jpg" alt="lot">
+								</a>
+							</div>
+							<h3 class="lot-item__title">
+								WFH - art name
+							</h3>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Sold for:
+								</div>
+								<div class="lot-item__sold-token">
+									<img src="../img/lot-sold-icon.svg" alt="lot-icon">
+									<span>1,5M</span>
+								</div>
+							</div>
+							<div class="lot-item__sold">
+								<div class="lot-item__sold-text">
+									Ending in:
+								</div>
+								<div class=" lot-item__sold-token">
+									<span>05h 02m 41s</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</main>
+
+	</div>
+	<script src="../js/index.js"></script>
+</body>
+
+</html>
