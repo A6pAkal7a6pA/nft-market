@@ -3,6 +3,7 @@
 	box-shadow: $button_shadow;
 	border-radius: 12px;
 	width: 100%;
+	cursor: pointer;
 	&-body {
 		display: block;
 		text-align: center;
@@ -75,13 +76,13 @@
 		color: $gray_text_color;
 	}
 	@media (max-width: 470px) {
-			flex-direction: column;
-			&__taste {
-				margin: 0 0 10px 0;
-			}
-			&__like {
-				margin: 0 0 5px 0;
-			}
+		flex-direction: column;
+		&__taste {
+			margin: 0 0 10px 0;
+		}
+		&__like {
+			margin: 0 0 5px 0;
+		}
 	}
 }
 
@@ -116,5 +117,20 @@
 		&__info-title {
 			font-size: 15px;
 		}
+	}
+}
+
+.delete-file-button {
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+	&__img {
+		margin-right: 5px;
+	}
+	&__text {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+		color: #ff5e54;
 	}
 }

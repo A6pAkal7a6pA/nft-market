@@ -1,4 +1,6 @@
 @import "zeroing.scss";
+@import "~swiper/swiper.scss";
+@import "~swiper/components/pagination/pagination.scss";
 @import "loader.scss";
 @import "settings.scss";
 @import "component.scss";
@@ -9,10 +11,8 @@
 @import "mainframe.scss";
 @import "activity.scss";
 @import "creator.scss";
-@import "popup/change.scss";
-@import "popup/create-artwork.scss";
+@import "popup/popup.scss";
 @import "animation.scss";
-@import "popup/follow.scss";
 @import "main-slider.scss";
 
 body {

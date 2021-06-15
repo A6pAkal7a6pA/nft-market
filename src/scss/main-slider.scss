@@ -8,14 +8,16 @@
 
 	&__item {
 		max-width: 519px;
-		&.swiper-slide-prev {
-		}
+
 		img {
 			width: 519px;
 			height: 519px;
 		}
 	}
 	.swiper-pagination {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		bottom: 0px;
 	}
 	.swiper-pagination-bullet {
