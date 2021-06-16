@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../../scss/index.scss">
+	<link rel="stylesheet" href="scss/index.scss">
 	<title>NFT</title>
 </head>
 
@@ -21,10 +21,10 @@
 		<header class="header">
 			<div class="header__body">
 				<div class="header__logo">
-					<img src="../../img/logo.svg" alt="logo">
+					<img src="img/logo.svg" alt="logo">
 				</div>
 				<div class="header__search">
-					<img src="../../img/search.svg" alt="search">
+					<img src="img/search.svg" alt="search">
 					<input autocomplete="off" type="search" placeholder="Search for ...">
 				</div>
 				<div class="header__connect button">
@@ -37,7 +37,7 @@
 				<div class="header__lk lk">
 					<div class="lk__person">
 						<div class="lk__person-image">
-							<img src="../../img/avatar.png" alt="avatar">
+							<img src="img/avatar.png" alt="avatar">
 						</div>
 						<div class="lk__person-content">
 							<a class="lk__person-title">
@@ -51,15 +51,15 @@
 									<div class="balance__title">
 										Balance:
 									</div>
-									<img src="../../img/kiss.svg" alt="like">
-									<div class="balance__amount">
-										1,5M
+									<img src="img/kiss.svg" alt="like">
+									<div class="balance__amount money">
+										1,150,000,000,000
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="lk__dropdown">
-							<img src="../../img/lk-dropdown-icon.svg" alt="dropdown">
+							<img src="img/lk-dropdown-icon.svg" alt="dropdown">
 						</div>
 					</div>
 					<div class="lk__menu lk-menu lk-menu_active">
@@ -86,43 +86,38 @@
 				<div class="change__body">
 					<div class="change__core">
 						<div class="change__exit">
-							<img src="../../img/exit-icon.svg" alt="exit">
+							<img src="img/exit-icon.svg" alt="exit">
 						</div>
 						<div class="create__title">
 							Creating artwork
 						</div>
+						<div class="create__exception">
+							Your artwork wasn’t approved. Cause is: Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+							amet
+							sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+						</div>
 						<div class="create__progress">
 							<div class="create__progress-item create__progress-item_active"></div>
-							<div class="create__progress-item create__progress-item_active"></div>
+							<div class="create__progress-item"></div>
 							<div class="create__progress-item"></div>
 						</div>
 						<div class="create__step">
-							Step 2 from 3
+							Step 1 from 3
 						</div>
 						<div class="create__content">
 							<div class="create__subtitle">
-								Censor the public version of artwork, if it contains 18+ content
+								Upload the artwork you will be selling
 							</div>
-							<div class="create__censor">
-								<img src="../../img/censor-img.png" alt="censor">
+							<div class="create__upload">
+								<div class="create__upload-format">
+									<span>1500x500px.</span>
+									<span>JPG, PNG or GIF.</span>
+									<span>100MB max size.</span>
+								</div>
+								<div class="create__upload-drop">
+									Drag and drop an image here, or click to browse
+								</div>
 							</div>
-							<ul class="create__paint">
-								<li class="create__paint-item">
-									<button>
-										<img src="../../img/image-paint-icon.svg" alt="image">
-									</button>
-								</li>
-								<li class="create__paint-item">
-									<button>
-										<img src="../../img/sticker-paint-icon.svg" alt="sticker">
-									</button>
-								</li>
-								<li class="create__paint-item">
-									<button>
-										<img src="../../img/blur-pain-icon.svg" alt="blur">
-									</button>
-								</li>
-							</ul>
 						</div>
 						<div class="create__button button">
 							<span class="button-body">
@@ -131,11 +126,12 @@
 						</div>
 					</div>
 				</div>
+			</div>
 
 		</main>
 
 	</div>
-	<script src="../../js/index.js"></script>
+	<script src="js/index.js"></script>
 </body>
 
 </html>

@@ -92,9 +92,12 @@
 				margin-right: 5px;
 			}
 			span {
-				font-weight: 600;
+				font-weight: 500;
 				font-size: 16px;
 				line-height: 19px;
+				max-width: 60px;
+				text-overflow: ellipsis;
+				overflow: hidden;
 			}
 		}
 
