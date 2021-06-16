@@ -7,6 +7,7 @@ new Swiper(".main-slider", {
 	slidesPerView: "auto",
 	initialSlide: 0,
 	centeredSlides: false,
+	slideToClickedSlide: true,
 	coverflowEffect: {
 		rotate: 0,
 		stretch: 200,

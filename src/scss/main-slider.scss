@@ -8,7 +8,8 @@
 
 	&__item {
 		max-width: 519px;
-
+		display: inline-flex;
+		overflow: hidden;
 		img {
 			width: 519px;
 			height: 519px;
@@ -22,7 +23,7 @@
 	}
 	.swiper-pagination-bullet {
 		width: 95px;
-		height: 5px;
+		height: 10px;
 		background: $gray_text_color;
 		border-radius: 99px;
 	}
