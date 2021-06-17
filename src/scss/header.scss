@@ -133,6 +133,7 @@
 			}
 		}
 		&__dropdown {
+			cursor: pointer;
 			margin-left: 5px;
 			img {
 			}
@@ -163,9 +164,14 @@
 				&:first-child {
 					color: $gray_text_color;
 				}
+				&-link {
+					color: #fff;
+				}
 				&:last-child {
-					color: #ff5e54;
 					margin-bottom: 0;
+					a {
+						color: #ff5e54;
+					}
 				}
 			}
 		}
